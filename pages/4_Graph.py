@@ -10,7 +10,7 @@ import json
 import os
 import re
 import pickle as cpickle
-import tkinter as tk
+
 
 global filename
 
