@@ -109,8 +109,8 @@ def graph():
                  
                      
     
-     height = [total,fake_acc,spam_acc]
-     bars = ('Total Twitter Accounts', 'Fake Accounts','Spam Content Tweets')
+     height = [total,spam_acc]
+     bars = ('Total Twitter Accounts', 'Spam Content Tweets')
      y_pos = np.arange(len(bars))
      fig, ax = plt.subplots()
      plt.xticks(y_pos,bars)

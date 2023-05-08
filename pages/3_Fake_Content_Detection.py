@@ -60,7 +60,7 @@ def st_directory_picker(initial_path=Path()):
 
     return st.session_state.path
 
-st.write("## Determine spam and fake users") 
+st.write("## Determine spam users") 
 st.sidebar.success("Select a function above.")
 
 def fakeDetection(): 
@@ -118,7 +118,7 @@ def fakeDetection():
 
 
 filename=st_directory_picker()
-if st.button('Run Random forest for fake accounts'):
+if st.button('Run Naive Bayes for fake Content'):
     fakeDetection()
 
 
