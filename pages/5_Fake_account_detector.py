@@ -7,7 +7,6 @@ import streamlit as st
 from collections import OrderedDict
 import matplotlib.figure
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import warnings
 
 
